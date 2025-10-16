@@ -51,7 +51,7 @@ project/
 
 1. Склонируйте репозиторий или скачайте архив проекта:
    ```bash
-   git clone https://github.com/medicsera/TailWind
+   git clone https://github.com/medicsera/TailWind/tree/to-do-list
    ```
 2. Скомпилируйте SCSS-файлы в CSS:
    ```bash
