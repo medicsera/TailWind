@@ -1,2 +1,33 @@
-@import "tailwindcss/preflight";
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
+
+:root {
+    --bg-color: #b08fea;
+    --color-item: #F8F8F8;
+    --color-btn-bg: #1D1825;
+    --color-btn-img: #fff;
+    --color-font: #000;
+    --color-switch: #DFC7FF;
+    --color-border: #3E1671;
+
+    --page-color:#1D1825;
+}
+
+@media (color-scheme: dark) {
+    :root {
+    --bg-color: #15101C;
+    --color-item: #15101C;
+    --color-btn-bg: #DFC7FF;
+    --color-btn-img: #15101C;
+    --color-font: #fff;
+    --color-switch: #1D1825;
+    }
+}
+
+@layer utilities {
+      
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+    }

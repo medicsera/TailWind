@@ -1,18 +1,26 @@
 {
-
   "name": "tailwind",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/medicsera/TailWind.git",
-  "author": "medicsera <anton.mirko.0550@gmail.com>",
-  "license": "MIT",
-  
+  "description": "",
+  "homepage": "https://github.com/medicsera/TailWind#readme",
+  "bugs": {
+    "url": "https://github.com/medicsera/TailWind/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medicsera/TailWind.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwind build -i src/input.css -o dist/output.css --watch"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.14"
-  },
-  "scripts": {
-  "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "tailwindcss": "3"
   }
 }
